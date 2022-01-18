@@ -1,0 +1,28 @@
+{
+  "manifests": {
+    "youmesoft/limesurvey-api-bundle": {
+      "manifest": {
+        "bundles": {
+          "Youmesoft\\LimeSurveyBundle\\LimeSurveyBundle": [
+            "all"
+          ]
+        }
+      },
+      "files": {
+        "config/packages/youmesoft_limesurvey_api.yaml": {
+          "contents": [
+            "youmesoft_lime_survey:",
+            " debug: enabled: true",
+            " path: \"%kernel.project_dir%/var/log/lime-survey\"",
+            "credentials:",
+            " url: \"%ls_baseurl%/admin/remotecontrol\"",
+            " username: \"%ls_user%\"",
+            " password: \"%ls_password%\""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "4d708bc358f77759a0f7b603dab332e9d1d8272d"
+    }
+  }
+}

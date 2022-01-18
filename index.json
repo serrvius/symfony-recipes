@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "youmesoft/limesurvey-api-bundle": [
+      "1"
+    ]
+  },
+  "branch": "master",
+  "is_contrib": true,
+  "_links": {
+    "repository": "git@bitbucket.org:autoplanning/symfony-bundles-recipes.git",
+    "origin_template": "{package}:{version}@bitbucket.org:autoplanning/symfony-bundles-recipes:master",
+    "recipe_template": "https://api.bitbucket.org/2.0/repositories/autoplanning/symfony-bundles-recipes/src/master/{package_dotted}.{version}.json"
+  }
+}

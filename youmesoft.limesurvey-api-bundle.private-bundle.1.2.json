@@ -3,7 +3,7 @@
     "youmesoft/limesurvey-api-bundle": {
       "manifest": {
         "bundles": {
-          "Youmesoft\\LimeSurveyBundle\\LimeSurveyBundle": [
+          "Youmesoft\\LimeSurveyBundle\\YoumesoftLimeSurveyBundle": [
             "all"
           ]
         }

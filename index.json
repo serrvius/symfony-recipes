@@ -2,7 +2,7 @@
   "recipes": {
     "youmesoft/limesurvey-api-bundle": [
       "1.0",
-      "1.5"
+      "1.2"
     ]
   },
   "branch": "master",

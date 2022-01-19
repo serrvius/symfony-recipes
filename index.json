@@ -1,6 +1,7 @@
 {
   "recipes": {
     "youmesoft/limesurvey-api-bundle": [
+      "dev-master",
       "1.0",
       "1.2"
     ]

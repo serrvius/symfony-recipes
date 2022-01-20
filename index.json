@@ -12,7 +12,7 @@
   "is_contrib": true,
   "_links": {
     "repository": "github.com/serrvius/symfony-recipes",
-    "origin_template": "{package}:{version}@github.com:serrvius/symfony-recipes:master",
+    "origin_template": "{package}:{version}@github.com/serrvius/symfony-recipes:master",
     "recipe_template": "https://raw.githubusercontent.com/serrvius/symfony-recipes/master/{package_dotted}.{version}.json"
   }
 }

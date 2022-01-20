@@ -1,13 +1,12 @@
 {
   "recipes": {
-    "youmesoft/limesurvey-api-bundle": [
+    "autoplanning/limesurvey-api-bundle": [
       "dev-master",
-      "1.0",
       "1.5"
     ]
   },
   "branch": "master",
-  "is_contrib": true,
+  "is_contrib": false,
   "_links": {
     "repository": "git@github.com:serrvius/symfony-recipes.git",
     "origin_template": "{package}:{version}@github.com:serrvius/symfony-recipes:master",

@@ -1,17 +1,20 @@
 {
   "manifests": {
-    "youmesoft/limesurvey-api-bundle": {
+    "autoplanning/limesurvey-api-bundle": {
       "manifest": {
         "bundles": {
-          "Youmesoft\\LimeSurveyBundle\\YoumesoftLimeSurveyBundle": [
+          "GMO\\LimeSurveyBundle\\GMOLimeSurveyBundle": [
             "all"
           ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
         }
       },
       "files": {
-        "config/packages/youmesoft_limesurvey_api.yaml": {
+        "config/packages/autoplanning_limesurvey_api.yaml": {
           "contents": [
-            "youmesoft_lime_survey:",
+            "autoplanning_lime_survey:",
             " debug: enabled: true",
             " path: \"%kernel.project_dir%/var/log/lime-survey\"",
             "credentials:",

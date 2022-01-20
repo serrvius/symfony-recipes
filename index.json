@@ -1,4 +1,7 @@
 {
+  "aliases": {
+    "limesurvey-api": "autoplanning/limesurvey-api-bundle"
+  },
   "recipes": {
     "autoplanning/limesurvey-api-bundle": [
       "dev-master",
@@ -6,7 +9,7 @@
     ]
   },
   "branch": "master",
-  "is_contrib": false,
+  "is_contrib": true,
   "_links": {
     "repository": "git@github.com:serrvius/symfony-recipes.git",
     "origin_template": "{package}:{version}@github.com:serrvius/symfony-recipes:master",

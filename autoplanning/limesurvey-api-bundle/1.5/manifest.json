@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "bundles": {
+      "GMO\\LimeSurveyBundle\\GMOLimeSurveyBundle": [
+        "all"
+      ]
+    },
+    "copy-from-recipe": {
+      "config/": "%CONFIG_DIR%"
+    }
+  },
+  "files": {
+    "config/packages/autoplanning_limesurvey_api.yaml": {
+      "contents": [
+        "autoplanning_lime_survey:",
+        " debug: enabled: true",
+        " path: \"%kernel.project_dir%/var/log/lime-survey\"",
+        "credentials:",
+        " url: \"%ls_baseurl%/admin/remotecontrol\"",
+        " username: \"%ls_user%\"",
+        " password: \"%ls_password%\""
+      ],
+      "executable": false
+    }
+  }
+}

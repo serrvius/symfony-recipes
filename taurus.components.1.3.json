@@ -3,7 +3,7 @@
         "taurus/components": {
             "manifest": {
                 "bundles": {
-                    "Taurus\\Components": [
+                    "Taurus\\Components\\TaurusComponentsBundle": [
                         "all"
                     ]
                 },
@@ -23,7 +23,7 @@
                     "executable": false
                 }
             },
-            "ref": "8cac5a215e5629639beec9e840eac50e574dfc27"
+            "ref": "1a0fc2b1f375facceec5d17b680c5b4870015e78"
         }
     }
 }

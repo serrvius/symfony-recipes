@@ -1,10 +1,16 @@
 {
   "aliases": {
-    "limesurvey-api": "autoplanning/limesurvey-api-bundle"
+    "limesurvey-api": "autoplanning/limesurvey-api-bundle",
+    "taurus-components": "taurus/components"
   },
   "recipes": {
     "autoplanning/limesurvey-api-bundle": [
       "dev-master",
+      "1.5"
+    ],
+    "taurus/components": [
+      "1.3",
+      "1.4",
       "1.5"
     ]
   },

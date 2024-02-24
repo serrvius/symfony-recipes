@@ -1,0 +1,29 @@
+{
+    "manifests": {
+        "taurus/components": {
+            "manifest": {
+                "bundles": {
+                    "Taurus\\Components": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/taurus_components.yaml": {
+                    "contents": [
+                        "taurus_components:",
+                        "    redis:",
+                        "       host:",
+                        "       port:",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "8cac5a215e5629639beec9e840eac50e574dfc27"
+        }
+    }
+}
